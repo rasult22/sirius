@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Manrope Variable", ...defaultTheme.fontFamily.sans],
+        Manrope: ['Manrope Variable'],
+        sans: [...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: "var(--color-primary)",

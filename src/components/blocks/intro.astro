@@ -1,0 +1,50 @@
+---
+import MyForm from '~/components/MyForm'
+---
+<section id="intro">
+  <div class="bg-[#171616] min-h-[400px] rounded-b-[40px] pb-20">
+    <div class="flex text-[#f4b927]">
+      <div class="w-[65%] max-w-[500px] rounded-br-[40px] min-h-[400px] relative bg-[#f4b927]">
+        <img class="absolute bottom-0 left-0" src="/intro-img.png" alt="">
+      </div>
+      <div class="ml-8 pt-[100px] text-[45px] leading-[50px]">
+        <div class="font-black">доставка грузов для бизнеса</div>
+        <div class="font-black">из китая в казахстан</div>
+        <div class="flex space-x-4">
+          <div class="font-black text-[40px] leading-[42px]">
+            <div>от 3 дней</div>
+            <div>от 300 кг</div>
+          </div>
+          <div class="text-[17px] leading-[20px] flex justify-center items-center text-center flex-col bg-[#f4b927] text-[#66501b] rounded-full w-[100px] h-[100px]">
+            <div>0.7$/кг</div>
+            <div class="text-[10px] leading-[11px]">стоимость в среднем</div>
+          </div>
+        </div>
+        <div class="ml-6 mt-4 pb-6">
+          <ul class="text-[15px] space-y-2 max-w-[300px] list-disc leading-[20px]">            <li><span class="text-white">контроль отгрузки и перемещения груза</span></li>
+            <li><span class="text-white">таможенная очистка без переплат</span></li>
+            <li><span class="text-white">твой личный менеджер решит все вопросы с доставкой</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="relative flex max-w-[80%] mt-8 mx-auto">
+      <img class="absolute -left-[15%] top-[-60%]" src="/calc.png" alt="">
+      <div class="z-[1] text-[45px] font-black text-white leading-[48px] max-w-[320px]">
+        <div class="text-[#f4b927]">рассчитай стоимость</div>
+        <div>логистики
+          прямо сейчас</div>
+          <div class="mt-8 flex items-center space-x-4">
+            <img class="rounded-full" src="/roma.jpeg" alt="">
+            <div>
+              <div class="text-[18px] leading-[20px]">Роман Турганов</div>
+              <div class="text-[11px] leading-[14px]">специалист ВЭД</div>
+            </div>
+          </div>
+      </div>
+      <div class="ml-auto z-[1]">
+        <div class="w-[400px]"><MyForm client:only /></div>
+      </div>
+    </div>
+  </div>
+</section>
